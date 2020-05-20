@@ -1,0 +1,173 @@
+.content {
+  width: 880px;
+}
+
+.massage {
+  background: #ffffff;
+  border: 1px solid #e9eff4;
+  border-radius: 6px;
+}
+
+.address {
+  display: flex;
+  flex-flow: row;
+  padding: 8px 14px 0px 13px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address__content {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: -0.3px;
+  color: #323c47;
+  opacity: 0.6;
+}
+
+.address__image {
+  width: 30px;
+  height: 30px;
+  background: url(../images/AliciliniaPhoto.svg) no-repeat;
+}
+
+.massege__title {
+  padding-left: 13px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.3px;
+  color: #323c47;
+  opacity: 0.6;
+}
+
+.links {
+  display: flex;
+  flex-flow: row;
+}
+
+.icon {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 77px;
+  padding: 14px 77px 11px 13px;
+}
+
+.telegram {
+  width: 22px;
+  height: 22px;
+  background: url(../images/telegramPass.svg) no-repeat;
+}
+
+.telegram:hover {
+  background: url(../images/telegram.svg) no-repeat;
+}
+
+.vk {
+  width: 22px;
+  height: 22px;
+  background: url(../images/vkPass.svg) no-repeat;
+}
+
+.vk:hover {
+  background: url(../images/vk.svg) no-repeat;
+}
+
+.whatsup {
+  width: 22px;
+  height: 22px;
+  background: url(../images/whatsupPass.svg) no-repeat floralwhite;
+}
+
+.whatsup:hover {
+  background: url(../images/whatsup.svg) no-repeat floralwhite;
+}
+
+.pinIcon {
+  width: 8px;
+  height: 15px;
+  background: url(../images/pinIcon.svg) no-repeat;
+}
+
+.pin {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 70px;
+  padding-top: 17.7px;
+}
+
+.pinText {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  color: #323c47;
+  opacity: 0.6;
+}
+
+.comments {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.likes {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  color: #323c47;
+  opacity: 0.6;
+}
+
+.comment {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.commentIcon {
+  background: url(../images/AliciliniaPhoto.svg) no-repeat;
+}
+
+.commentText {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  color: #2fc7f7;
+  mix-blend-mode: normal;
+}
+
+.views {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.viewsIcon {
+  background: url(../images/AliciliniaPhoto.svg) no-repeat;
+}
+
+.viewsText {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11.5555px;
+  line-height: 16px;
+  letter-spacing: -0.276217px;
+  color: #838a91;
+}
