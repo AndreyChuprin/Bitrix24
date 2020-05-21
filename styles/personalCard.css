@@ -1,9 +1,55 @@
+.personalCard {
+  width: 930px;
+  background: linear-gradient(158.05deg, #ffffff 23.76%, #f7faff 133.63%);
+  box-shadow: 1px 2px 20px rgba(18, 61, 101, 0.05),
+    inset -18.4px -13.8px 184px rgba(255, 255, 255, 0.18);
+  border-radius: 18px;
+}
+
 .content {
   width: 880px;
+  padding: 26px 20px 12px 29px;
+}
+
+.personalCard__heander {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 29px;
+}
+
+.foto {
+  width: 40px;
+  height: 40px;
+  background: url(../images/userPhoto.svg) no-repeat;
+}
+
+.personalData {
+  padding-left: 10px;
+  padding-right: 510px;
+}
+.userName {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.13px;
+  color: #233539;
+}
+
+.dateTime {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.13px;
+  color: #233539;
 }
 
 .massage {
-  margin-left: 29px;
   background: #ffffff;
   border: 1px solid #e9eff4;
   border-radius: 6px;
@@ -28,7 +74,7 @@
   opacity: 0.6;
 }
 
-.address__image {
+.userImage {
   width: 30px;
   height: 30px;
   background: url(../images/AliciliniaPhoto.svg) no-repeat;
@@ -123,7 +169,7 @@
 .comments {
   padding-top: 20px;
   padding-bottom: 24px;
-  padding-left: 44px;
+  padding-left: 13px;
   width: 335px;
   display: flex;
   flex-flow: row;
@@ -213,4 +259,47 @@
 
 .viewsText:hover {
   color: #2fc7f7;
+}
+
+.personalCard__footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerComments {
+  box-sizing: border-box;
+  width: 800px;
+  height: 30px;
+  padding-left: 11px;
+  padding-right: 9px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border: 0.962959px solid #e9eff4;
+  border-radius: 6px;
+}
+
+.footerComments__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: #323c47;
+  opacity: 0.6;
+}
+
+.footerComments__icon {
+  width: 16px;
+  height: 16px;
+  background: url(../images/😊.svg) no-repeat;
+}
+
+.sendBtn {
+  width: 30px;
+  height: 30px;
+  background: url(../images/sendBtn.svg) no-repeat;
 }
