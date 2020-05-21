@@ -3,6 +3,7 @@
 }
 
 .massage {
+  margin-left: 29px;
   background: #ffffff;
   border: 1px solid #e9eff4;
   border-radius: 6px;
@@ -45,8 +46,12 @@
   letter-spacing: -0.3px;
   color: #323c47;
   opacity: 0.6;
+  text-decoration-line: none;
 }
 
+.massege__title:hover {
+  color: #2fc7f7;
+}
 .links {
   display: flex;
   flex-flow: row;
@@ -116,6 +121,10 @@
 }
 
 .comments {
+  padding-top: 20px;
+  padding-bottom: 24px;
+  padding-left: 44px;
+  width: 335px;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -130,17 +139,31 @@
   letter-spacing: -0.3px;
   color: #323c47;
   opacity: 0.6;
+  text-decoration-line: none;
+}
+
+.likes:hover {
+  color: #2fc7f7;
 }
 
 .comment {
+  width: 109px;
   display: flex;
   flex-flow: row;
+  align-items: center;
   justify-content: space-between;
 }
 .commentIcon {
-  background: url(../images/AliciliniaPhoto.svg) no-repeat;
+  width: 10px;
+  height: 10px;
+  background: url(../images/commentIconPass.svg) no-repeat;
 }
 
+.commentIcon:hover {
+  width: 10px;
+  height: 10px;
+  background: url(../images/commentIcon.svg) no-repeat;
+}
 .commentText {
   font-family: Open Sans;
   font-style: normal;
@@ -148,18 +171,33 @@
   font-size: 12px;
   line-height: 16px;
   letter-spacing: -0.3px;
-  color: #2fc7f7;
+  color: #323c47;
   mix-blend-mode: normal;
+  text-decoration-line: none;
+}
+
+.commentText:hover {
+  color: #2fc7f7;
 }
 
 .views {
+  width: 86px;
   display: flex;
   flex-flow: row;
+  align-items: center;
   justify-content: space-between;
 }
 
 .viewsIcon {
-  background: url(../images/AliciliniaPhoto.svg) no-repeat;
+  width: 12px;
+  height: 9px;
+  background: url(../images/eyeIconPass.svg) no-repeat;
+}
+
+.viewsIcon:hover {
+  width: 12px;
+  height: 9px;
+  background: url(../images/eyeIcon.svg) no-repeat;
 }
 
 .viewsText {
@@ -170,4 +208,9 @@
   line-height: 16px;
   letter-spacing: -0.276217px;
   color: #838a91;
+  text-decoration-line: none;
+}
+
+.viewsText:hover {
+  color: #2fc7f7;
 }
