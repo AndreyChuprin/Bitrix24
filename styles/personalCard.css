@@ -11,7 +11,7 @@
   padding: 26px 20px 12px 29px;
 }
 
-.personalCard__heander {
+.personalCard__header {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -129,6 +129,7 @@
   height: 30px;
   background: url(../images/user.svg) no-repeat;
 }
+
 .communication {
   display: flex;
   flex-flow: row;
@@ -242,6 +243,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .commentIcon {
   width: 10px;
   height: 10px;
@@ -253,6 +255,7 @@
   height: 10px;
   background: url(../images/commentIcon.svg) no-repeat;
 }
+
 .commentText {
   font-family: Open Sans;
   font-style: normal;

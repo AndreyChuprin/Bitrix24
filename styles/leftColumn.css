@@ -1,0 +1,90 @@
+.contener {
+  width: 95px;
+  height: 935px;
+  margin-left: 21px;
+  margin-top: 107px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  background: linear-gradient(94.91deg, #ffffff 23.76%, #f7faff 133.63%);
+  box-shadow: 1px 2px 20px rgba(18, 61, 101, 0.05),
+    inset -18.4px -13.8px 184px rgba(255, 255, 255, 0.18);
+  border-radius: 18px;
+}
+
+.topIcons {
+  width: 100%;
+  padding-top: 22px;
+  height: 397px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fistGroup {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-items: flex-start;
+  align-items: center;
+}
+
+.indicator {
+  width: 33px;
+  height: 67px;
+  background: url(../images/indicator.svg) no-repeat;
+}
+
+
+.newsIcon {
+  width: 32px;
+  height: 31px;
+  background: url(../images/newsIcon.svg) no-repeat;
+}
+
+
+.inboxIcon {
+  width: 32px;
+  height: 31px;
+  background: url(../images/inboxIcon.svg) no-repeat;
+}
+
+.meetingsIcon {
+  width: 32px;
+  height: 32px;
+  background: url(../images/meetingsIcon.svg) no-repeat;
+}
+
+.colleguesIcon {
+  width: 32px;
+  height: 32px;
+  background: url(../images/colleguesIcon.svg) no-repeat;
+}
+
+.clockIcon {
+  width: 31px;
+  height: 32px;
+  background: url(../images/clockIcon.svg) no-repeat;
+}
+
+.bottomIcons {
+  padding-bottom: 30px;
+  height: 104px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settingsIcon {
+  width: 32px;
+  height: 31px;
+  background: url(../images/settingsIcon.svg) no-repeat;
+}
+
+.infoIcon {
+  width: 32px;
+  height: 31px;
+  background: url(../images/infoIcon.svg) no-repeat;
+}
