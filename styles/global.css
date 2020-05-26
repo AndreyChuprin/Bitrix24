@@ -1,14 +1,16 @@
 html {
-    height: 100%;
+  width: 1440px;
+  height: 983px;
 }
 
 body {
-    height: 100%;
-    font-family: Open Sans;
-    font-style: normal;
-    background: #F4F8F9;
+  width: 1440px;
+  height: 983px;
+  font-family: Open Sans;
+  font-style: normal;
+  background: #f4f8f9;
 }
 
 * {
-    box-sizing: content-box;
+  box-sizing: content-box;
 }

@@ -1,0 +1,177 @@
+.contener__rightColumn {
+  width: 300px;
+  height: 890px;
+  margin-left: 1140px;
+  margin-top: 107px;
+  display: flex;
+  flex-flow: column;
+  background: linear-gradient(94.91deg, #ffffff 23.76%, #f7faff 133.63%);
+  box-shadow: 1px 2px 20px rgba(18, 61, 101, 0.05),
+    inset -18.4px -13.8px 184px rgba(255, 255, 255, 0.18);
+  border-radius: 18px;
+}
+
+.messageBlock {
+  width: 220px;
+  padding: 27px 49px 0px 32px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.messageBlock__icon {
+  width: 55px;
+  height: 56px;
+  background: url(../images/iconBg.svg) no-repeat;
+}
+
+.textBlock__title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: flex-end;
+  color: #233539;
+  opacity: 0.6;
+}
+
+.textBlock__text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  color: #323c47;
+  opacity: 0.6;
+}
+
+.dropdowIcon {
+  margin-top: 10px;
+  align-self: flex-start;
+  width: 13px;
+  height: 8px;
+  background: url(../images/dropdowIncon.svg) no-repeat;
+}
+
+.messageBlock__icon--mail {
+  width: 70px;
+  height: 71px;
+  background: url(../images/bg.svg) no-repeat;
+}
+
+.dropdowIcon--mail {
+  width: 13px;
+  height: 8px;
+  background: url(../images/droptopIcon.svg) no-repeat;
+}
+
+.messageBlock--mail {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.textBlock__title--mail {
+  opacity: 1;
+}
+
+.separator {
+  margin-top: 20px;
+  align-self: center;
+  width: 270px;
+  height: 1px;
+  background: url(../images/separator.svg) no-repeat;
+}
+
+.messageBlock__icon--task {
+  width: 55px;
+  height: 57px;
+  background: url(../images/task.svg) no-repeat;
+}
+
+.allMessages {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4f8f9;
+  margin-left: 15px;
+  margin-right: 18px;
+}
+
+.messageBlock--users {
+  width: 210px;
+  padding-left: 25px;
+}
+
+.userFoto {
+  width: 41px;
+  height: 41px;
+  background: url(../images/ivan.jpg) no-repeat;
+}
+
+.userName {
+  font-family: Open iSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.13px;
+  color: #233539;
+}
+
+.userText {
+  width: 151px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.13px;
+  color: #233539;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.userFoto--mariy {
+  background: url(../images/mariy.jpg) no-repeat;
+}
+
+.userFoto--anna {
+  background: url(../images/anna.jpg) no-repeat;
+}
+
+.userFoto--pety {
+  background: url(../images/pety.jpg) no-repeat;
+}
+
+.userFoto--dima {
+  background: url(../images/dima.jpg) no-repeat;
+}
+
+.userFoto--kiril {
+  background: url(../images/kiril.jpg) no-repeat;
+}
+
+.userFoto--july {
+  background: url(../images/july.jpg) no-repeat;
+}
+
+.textBlock--notCActive {
+  opacity: 0.6;
+}
+
+.correspondence {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  text-decoration-line: underline;
+  color: #2fc7f7;
+}
