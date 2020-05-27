@@ -1,0 +1,153 @@
+.headerContener {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 49px 22px 19px;
+}
+
+.cloud {
+  width: 96px;
+  height: 61px;
+  background: url(../images/logo.jpg) no-repeat;
+}
+
+.centerBox {
+  width: 926px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nameBox {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  color: #233539;
+}
+
+.timeBox {
+  width: 210px;
+  height: 45px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #eff4f7;
+  box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.1);
+  border-radius: 16px;
+}
+
+.day {
+  margin-left: 4px;
+  width: 60px;
+  height: 40px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 17px;
+  color: #233539;
+  background: linear-gradient(140.2deg, #ffffff 23.76%, #f1f8ff 133.63%);
+  box-shadow: 1px 2px 20px rgba(18, 61, 101, 0.05),
+    inset -18.4px -13.8px 184px rgba(255, 255, 255, 0.18);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.week {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #323c47;
+  opacity: 0.6;
+}
+
+.month {
+  margin-right: 17px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #323c47;
+  opacity: 0.6;
+}
+
+.personalBox {
+  width: 220px;
+  height: 40px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alinaBlock {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.alinaFoto {
+  width: 35px;
+  height: 35px;
+  background: url(../images/alina.jpg) no-repeat;
+}
+
+.alinaTextBlock {
+  margin-left: 7px;
+}
+
+.alinaText {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 24px;
+  color: #323c47;
+  opacity: 0.6;
+}
+
+.alinaName {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.8515px;
+  line-height: 16px;
+  color: #233539;
+  opacity: 0.6;
+}
+
+.outputBtn {
+  width: 60px;
+  height: 30px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #2fc7f7;
+  background: #ffffff;
+  border: 2px solid #2fc4f3;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 17px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+}
