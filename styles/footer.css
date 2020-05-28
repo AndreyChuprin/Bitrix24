@@ -1,0 +1,64 @@
+.footerContener {
+  width: 869px;
+  height: 35px;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logoBox {
+  padding-left: 13px;
+  width: 100px;
+  height: 35px;
+  background: url(../images/logoBox.svg) no-repeat;
+}
+
+.languageBox {
+  margin-right: 27px;
+  width: 100px;
+  height: 35px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(156.38deg, #ffffff 23.76%, #f7faff 133.63%);
+  box-shadow: 1px 2px 20px rgba(18, 61, 101, 0.05),
+    inset -18.4px -13.8px 184px rgba(255, 255, 255, 0.18);
+  border-radius: 14px;
+}
+
+.languageType {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  color: #2fc7f7;
+}
+
+.dropdowIcon {
+  width: 13px;
+  height: 8px;
+  background: url(../images/dropdownBl.svg) no-repeat;
+}
+
+.footerText {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  color: #323c47;
+  opacity: 0.6;
+}
+
+.divider {
+  margin-left: 13px;
+  margin-right: 13px;
+  width: 1px;
+  height: 15px;
+  background: url(../images/divider.jpg) no-repeat;
+}
