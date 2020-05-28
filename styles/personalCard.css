@@ -1,5 +1,6 @@
 .personalCard {
   width: 930px;
+  margin-bottom: 6px;
   background: linear-gradient(158.05deg, #ffffff 23.76%, #f7faff 133.63%);
   box-shadow: 1px 2px 20px rgba(18, 61, 101, 0.05),
     inset -18.4px -13.8px 184px rgba(255, 255, 255, 0.18);

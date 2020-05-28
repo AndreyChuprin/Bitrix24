@@ -1,0 +1,6 @@
+.mainBlock {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
