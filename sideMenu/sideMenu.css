@@ -1,0 +1,67 @@
+.sideMenu {
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1 0 100%;
+    background-color: #f7faff;
+    border-radius: 18px;
+    box-shadow: 1px 2px 20px rgba(18, 61, 101, 0.05),
+        inset -18px -13px 184px rgba(255, 255, 255, 0.18);
+}
+
+.sideMenu__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100px;
+    height: 70px;
+}
+
+.sideMenu__item--active::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+    height: 50px;
+    left: 0;
+    background: url(./assets/indicator.svg) no-repeat;
+}
+
+.sideMenu__item--separator {
+    margin-bottom: auto;
+}
+
+.icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.icon--news {
+    background: url(./assets/newsIcon.svg) no-repeat;
+}
+
+.icon--inbox {
+    background: url(./assets/inboxIcon.svg) no-repeat;
+}
+
+.icon--meetings {
+    background: url(./assets/meetingsIcon.svg) no-repeat;
+}
+
+.icon--colleagues {
+    background: url(./assets/colleguesIcon.svg) no-repeat;
+}
+
+.icon--clock {
+    background: url(./assets/clockIcon.svg) no-repeat;
+}
+
+.icon--settings {
+    background: url(./assets/settingsIcon.svg) no-repeat;
+}
+
+.icon--info {
+    background: url(./assets/infoIcon.svg) no-repeat;
+}

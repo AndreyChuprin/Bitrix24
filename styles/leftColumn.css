@@ -1,13 +1,11 @@
 .contener {
   width: 95px;
-  height: 935px;
-  margin-left: 21px;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  background: linear-gradient(94.91deg, #ffffff 23.76%, #f7faff 133.63%);
+  background: linear-gradient(94deg, #ffffff 24%, #f7faff 134%);
   box-shadow: 1px 2px 20px rgba(18, 61, 101, 0.05),
-    inset -18.4px -13.8px 184px rgba(255, 255, 255, 0.18);
+    inset -18px -13px 184px rgba(255, 255, 255, 0.18);
   border-radius: 18px;
 }
 
@@ -36,12 +34,12 @@
 }
 
 
+
 .newsIcon {
   width: 32px;
   height: 31px;
   background: url(../images/newsIcon.svg) no-repeat;
 }
-
 
 .inboxIcon {
   width: 32px;
