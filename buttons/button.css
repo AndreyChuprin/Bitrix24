@@ -1,0 +1,56 @@
+.btn {
+    width: 120px;
+    height: 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border: 2px solid #2fc4f3;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 17px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+}
+
+.btn--exit {
+    width: 60px;
+}
+
+.btn--save {
+    width: 130px;
+}
+
+.btn--Add {
+    width: 140px;
+}
+
+.btn--AddUser {
+    width: 180px;
+}
+
+.btn__icon {
+    padding-right: 5px;
+    width: 17px;
+    height: 16px;
+    background: url(./assets/starIcon.svg) no-repeat;
+}
+
+.btn__text {
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 14px;
+    color: #2fc4f3;
+}
+
+
+.btn:hover {
+    background: #2fc4f3;
+}
+
+.btn:hover .btn__text {
+    color: #ffffff;
+}
+
+.btn:hover .btn__icon {
+    background: url(./assets/starWhiteIcon.svg) no-repeat;
+}
